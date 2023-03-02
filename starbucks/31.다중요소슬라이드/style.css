@@ -1,0 +1,61 @@
+/* AWARDS */
+
+.awards{
+  min-width: 400px;
+
+}
+.awards .inner{
+  padding:40px 0;
+  box-shadow:inset 0 0 10px red;
+  position:relative;
+ 
+  
+  width:100%;
+}
+
+swiper-container{
+  width: 100%;
+  height: 40px;
+
+}
+.swiper-wrapper{
+display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+}
+.swiper-slide{
+   
+}
+.awards .swiper-prev,
+.awards .swiper-next{
+  width: 42px;
+  height: 42px;
+  border:2px solid white;
+  border-radius:50%;
+  outline:none;
+  color:#fff;
+  opacity:30%;
+  cursor:pointer;
+  justify-content: center;
+  align-items:center;
+  position:absolute;
+  box-shadow:inset 0 0 4px rgb(76, 0, 255);
+  top: 0;
+  bottom: 0;
+  margin:auto;
+
+}
+
+.awards .swiper-prev{
+  left: -100px;
+
+}
+.awards .swiper-next{
+  right:-100px
+}
+.awards .swiper-prev:hover,
+.awards .swiper-next:hover{
+  background-color: #fff;
+  color:#333;
+}

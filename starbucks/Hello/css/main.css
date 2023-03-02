@@ -1,0 +1,24 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition:1s;
+}
+
+.box:focus {
+  width:300px;
+  background-color: rgb(102, 65, 225);
+}
+input{
+
+}
+
+input:focus {
+  background-color: orange;
+}
+.box1::before{
+  content:"앞";
+}
+.box1::after{
+  content:"뒤";
+}
