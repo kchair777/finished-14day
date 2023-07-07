@@ -82,3 +82,4 @@ See 'git help git' for an overview of the system.
 1.  git commit -m 'Start project'
 1.  git log / head -> master commit 693c439fb7edca2ffdca5e50cf3247e7d6bccaea (HEAD -> master)확인으로 우리컴퓨터에만 저장됨
 1.  git remote add origin https://github.com/kchstar/finish14day.git  / 저장소 이름 origin  / 브렌치는 master
+1.  git push origin master 
