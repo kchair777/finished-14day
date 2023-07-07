@@ -77,4 +77,8 @@ See 'git help git' for an overview of the system.
         safe.directory=*
         :
 1.  git status  / 등록확인용  / 빨강색으로 준비된것을 확인한다.
-1.  
+1.  git add . /  버전관리 등록 
+1.  git status / 초록색으로 변경확인
+1.  git commit -m 'Start project'
+1.  git log / head -> master commit 693c439fb7edca2ffdca5e50cf3247e7d6bccaea (HEAD -> master)확인으로 우리컴퓨터에만 저장됨
+1.  git remote add origin https://github.com/kchstar/finish14day.git  / 저장소 이름 origin  / 브렌치는 master
