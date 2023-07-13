@@ -57,4 +57,5 @@ See 'git help git' for an overview of the system.
 1.  git branch help | help branch추가 
 1.  git branch -c master | master추가
 1.  git branch -d help | help 삭제함
-1.  
+1.  git checkout branch -branch명(main) 
+1.  git branch -m old-branch new-branch
