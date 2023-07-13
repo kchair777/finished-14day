@@ -5,7 +5,13 @@
 1.  git status
 1.  git commit -m 'java'
 1.  git remote add origin https://github.com/kchair666/finished-14day.git
-1.  git push -u origin main 
+1.  git push -u origin main |  git push -u master_1 // 하단에 표시된 브렌치에 push
+1.  아래와 같이 실행됨 
+    commit 87e0119e608751118f85ed1ead5d48031fb5297e (HEAD -> master_1, master_1/master_1)
+    Author: kchair <kchair@knou.ac.kr>
+    Date:   Thu Jul 13 12:59:30 2023 +0900
+
+    java-test_1
 
 usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
