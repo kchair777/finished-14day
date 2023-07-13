@@ -1,0 +1,23 @@
+{
+  "name": "fastcampus.co.kr",
+  "version": "1.0.0",
+  "description": "1. node.js 짝수 버전14.16.0(LTS:long Term Supported) / 홀수 버전 15.10.01 1. nvm(node version manager)을설치한다. github에서 nvm-sh/nvm    1. curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash 1. nvm --version확인하면 0.39.3 확인됨 1. nvm ls 실행하면  iojs->N/A(default) node->stable(->)(default)  unstable -> N/A(default) 1.  nvm install 14.16.0 인스톨후 nvm ls로 설치버전확인 1.  낮은버전설치 예) nvm install 12.21.0 1.  nvm use 12.21.0 1.  node --version 1.  필요없는 버전삭제시 nvm uninstall 12.10.0  1.  더많은 정보를 얻어려면 nvm -help 1.  npm(Node Package Manager)     1. https://cdn.jsdeliver... /reset.min.css\" />     1. https://fonts.googleapis.com ../..=Material+Icons\">     1. https:// ..lodash.min.js     1. https:// .. GSAP & ScrollToPlugin..>     1. https://.. SWIPER  .. >     1. https:// ScrollMajic ..>      1. Trade-off(상충관계)발생함. 1. npm init -y하면 package.json",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
