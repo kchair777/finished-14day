@@ -59,3 +59,4 @@ See 'git help git' for an overview of the system.
 1.  git branch -d help | help 삭제함
 1.  git checkout branch -branch명(main) 
 1.  git branch -m old-branch new-branch
+1.  git 
